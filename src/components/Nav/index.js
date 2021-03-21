@@ -7,14 +7,14 @@ const styles = {
 const Nav = () => {
   const categories = [
     {
-      name: "commercial",
+      name: "Commercial",
       description:
         "Photos of grocery stores, food trucks, and other commercial projects",
     },
-    { name: "portraits", description: "Portraits of people in my life" },
-    { name: "food", description: "Delicious delicacies" },
+    { name: "Portraits", description: "Portraits of people in my life" },
+    { name: "Food", description: "Delicious delicacies" },
     {
-      name: "landscape",
+      name: "Landscape",
       description: "Fields, farmhouses, waterfalls, and the beauty of nature",
     },
   ];
@@ -36,7 +36,7 @@ const Nav = () => {
         </li>
           <li className="mx-2">
             <a href="#about">
-              About me
+              About Me
         </a>
           </li>
           <li>
