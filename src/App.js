@@ -1,7 +1,8 @@
 import './App.css';
 import {
   About,
-  Nav
+  Nav,
+  Gallery
 } from './components';
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
     <div>
       <Nav />
       <main>
+        <Gallery />
         <About />
       </main>
     </div>

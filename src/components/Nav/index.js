@@ -1,3 +1,5 @@
+import { capitalizeFirstLetter } from '../../utils/helpers';
+
 const styles = {
   list: {
     alignItems: "baseline"
@@ -7,14 +9,14 @@ const styles = {
 const Nav = () => {
   const categories = [
     {
-      name: "Commercial",
+      name: "commercial",
       description:
         "Photos of grocery stores, food trucks, and other commercial projects",
     },
-    { name: "Portraits", description: "Portraits of people in my life" },
-    { name: "Food", description: "Delicious delicacies" },
+    { name: "portraits", description: "Portraits of people in my life" },
+    { name: "food", description: "Delicious delicacies" },
     {
-      name: "Landscape",
+      name: "landscape",
       description: "Fields, farmhouses, waterfalls, and the beauty of nature",
     },
   ];
@@ -49,7 +51,7 @@ const Nav = () => {
               key={category.name}
             >
               <span>
-                {category.name}
+                {capitalizeFirstLetter(category.name)}
               </span>
             </li>
           ))}
