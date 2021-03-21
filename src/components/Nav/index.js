@@ -29,13 +29,13 @@ const Nav = () => {
         <ul className="flex-row" style={styles.list}>
         <li>
         <h2>
-        <a href="/">
+        <a data-testid="link" href="/">
           <span role="img" aria-label="camera"> 📸</span> Oh Snap!
         </a>
       </h2>
         </li>
           <li className="mx-2">
-            <a href="#about">
+            <a data-testid="about" href="#about">
               About Me
         </a>
           </li>
