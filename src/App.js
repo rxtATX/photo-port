@@ -25,7 +25,7 @@ const App = () => {
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}/>
       <main>
-        <Gallery />
+        <Gallery currentCategory={currentCategory} />
         <About />
       </main>
     </div>
