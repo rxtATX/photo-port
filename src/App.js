@@ -3,7 +3,8 @@ import './App.css';
 import {
   About,
   Nav,
-  Gallery
+  Gallery,
+  ContactForm
 } from './components';
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}/>
       <main>
+        <ContactForm></ContactForm>
         <Gallery currentCategory={currentCategory} />
         <About />
       </main>
