@@ -38,7 +38,7 @@ const ContactForm = () => {
 
   return (
     <section>
-      <h1>Contact me</h1>
+      <h1 data-testid="cfh1">Contact Me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         {/* name input */}
         <div>
@@ -61,7 +61,7 @@ const ContactForm = () => {
           </div>
         )}
         {/* submit button */}
-        <button type="submit">Submit</button>
+        <button data-testid="submit-btn" type="submit">Submit</button>
       </form>
     </section>
   )
